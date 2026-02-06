@@ -103,14 +103,6 @@ header{
     border-bottom: 2px solid rgb(132, 132, 132);;
 }
 
-#burguer-menu ul li a{
-    transition: 0.3s color ease-out;
-}
-
-#burguer-menu ul li a:hover{
-    color: rgb(132, 132, 132);
-}
-
 #main{
     display: flex;
     flex-direction: column;
