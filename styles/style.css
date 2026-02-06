@@ -48,6 +48,15 @@ header{
     transform: scale(1.1);
 }
 
+.social-logo svg{
+    fill: black;
+    transition: 0.3s fill ease;
+}
+
+.social-logo svg:hover{
+    fill: rgb(52, 52, 52);
+}
+
 .menu-button{
     border: none;
     transition: 0.6s;
@@ -99,8 +108,8 @@ header{
 }
 
 #burguer-menu ul li:hover{
-    border-top: 2px solid rgb(132, 132, 132);;
-    border-bottom: 2px solid rgb(132, 132, 132);;
+    border-top: 2px solid rgb(0, 0, 0);;
+    border-bottom: 2px solid rgb(0, 0, 0);;
 }
 
 #main{
@@ -191,4 +200,11 @@ footer{
 #close-menu:hover{
     cursor: none;
     background-color: rgb(200, 132, 132);
+}
+
+
+/*media query*/
+
+#mobile-main{
+    display: none;
 }
