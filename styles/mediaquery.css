@@ -87,19 +87,30 @@
   }
 
   #main-item {
-    margin-top: 30px;
-  }
-
-  #main-item h1 {
-    font-size: 100px;
+    display: none;
   }
 
   #main-item-subtitle {
-    font-size: 18px;
+    display: none;
   }
 
-  #path {
-    margin-top: 30px;
+  #mobile-main-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  #mobile-main-photo {
+    width: 320px;
+    height: 400px;
+    background-color: black;
+    background-image: url(../images/unwiredo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+    box-shadow: 5px 5px black;
   }
 
   #path-options {
@@ -108,48 +119,19 @@
   }
 }
 
-@media (max-width: 450px) {
-  #main-item h1 {
-    font-size: 95px;
-  }
-
-  #main-item-subtitle {
-    font-size: 17px;
-  }
-}
-
-@media (max-width: 410px) {
-  #main-item h1 {
-    font-size: 85px;
-    letter-spacing: -10px;
-  }
-
-  #main-item-subtitle {
-    font-size: 15px;
-  }
-}
-
-@media (max-width: 375px) {
-  #main-item h1 {
-    font-size: 74px;
-    letter-spacing: -9px;
-    margin-bottom: 10px;
-  }
-
-  #main-item-subtitle {
-    font-size: 14px;
+@media (max-width: 380px) {
+  #mobile-main-photo {
+    width: 280px;
+    height: 340px;
   }
 
   #path-options {
-    justify-content: space-evenly;
-    width: 250px;
-    align-items: start;
-    flex-direction: column;
+    width: 280px;
+    justify-content: space-around;
+    font-size: 15.5px;
   }
 
-  #path-options a {
-    margin-left: 15px;
-    font-size: 16px;
+  #contact {
+    display: none;
   }
 }
-
