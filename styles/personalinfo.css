@@ -1,6 +1,14 @@
 @charset "UTF-8";
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 #personal-general {
+  width: 900px;
   margin-top: 60px;
   display: flex;
   justify-content: space-around;
@@ -13,13 +21,32 @@
   height: 400px;
   background-position: center;
   background-size: cover;
-  margin-right: 20px;
   box-shadow: 7px 7px black;
   border: 3px solid black;
 }
 
 #personal-info {
-  width: 300px;
+  width: 400px;
   padding-left: 20px;
   border-left: 2px solid black;
+}
+
+#personal-info p {
+  font-size: 18px;
+}
+
+#dreams-box {
+  margin-top: 80px;
+}
+
+#dreams-title {
+  background-color: #b4b4b4;
+  width: 900px;
+  padding: 5px;
+  border: 2px solid black;
+  box-shadow: 3px 3px black;
+}
+
+#dreams-title h3 {
+  font-weight: 600;
 }
