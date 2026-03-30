@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+#personal-general {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#personal-photo {
+  background-image: url(../images/unwiredoo.jpg);
+  width: 350px;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  margin-right: 20px;
+  box-shadow: 7px 7px black;
+  border: 3px solid black;
+}
+
+#personal-info {
+  width: 300px;
+  padding-left: 20px;
+  border-left: 2px solid black;
+}
