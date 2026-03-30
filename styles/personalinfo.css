@@ -9,7 +9,7 @@ main {
 
 #personal-general {
   width: 900px;
-  margin-top: 60px;
+  margin-top: 90px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -27,12 +27,15 @@ main {
 
 #personal-info {
   width: 400px;
+}
+
+#personal-info-text {
+  border-left: 3px solid black;
   padding-left: 20px;
-  border-left: 2px solid black;
 }
 
 #personal-info p {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 #dreams-box {
@@ -49,4 +52,33 @@ main {
 
 #dreams-title h3 {
   font-weight: 600;
+}
+
+#dreams-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+#dreams-text {
+  width: 400px;
+  padding-right: 30px;
+  border-right: 3px solid black;
+}
+
+#dreams-text p {
+  font-size: 18px;
+}
+
+#dreams-image {
+  margin-left: 30px;
+  width: 400px;
+  height: 400px;
+  background-image: url(../images/apple2.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
