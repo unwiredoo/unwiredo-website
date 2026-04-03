@@ -38,47 +38,43 @@ main {
   font-size: 20px;
 }
 
-#dreams-box {
+#more-info-link {
+  margin-top: 30px;
+}
+
+#more-info-link a {
+  padding: 6px;
+  border: 3px solid black;
+  box-shadow: 4px 4px black;
+  font-size: 15px;
+  transition: 0.6s;
+}
+
+#more-info-link a:hover {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  box-shadow: 5px 5px black;
+}
+
+#life-topics {
   margin-top: 80px;
-}
-
-#dreams-title {
-  background-color: #b4b4b4;
-  width: 900px;
-  padding: 5px;
-  border: 2px solid black;
-  box-shadow: 3px 3px black;
-}
-
-#dreams-title h3 {
-  font-weight: 600;
-}
-
-#dreams-main {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
-  margin-left: 20px;
 }
 
-#dreams-text {
-  width: 400px;
-  padding-right: 30px;
-  border-right: 3px solid black;
+.life-topic {
+  margin: 10px 0 10px 0;
+  width: 900px;
+  padding: 8px;
+  border: 3px solid black;
+  box-shadow: 5px 5px black;
+  background-color: #b6b6b6;
 }
 
-#dreams-text p {
+.life-topic h3 {
   font-size: 18px;
-}
-
-#dreams-image {
-  margin-left: 30px;
-  width: 400px;
-  height: 400px;
-  background-image: url(../images/apple2.png);
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
+  font-weight: 500;
 }
